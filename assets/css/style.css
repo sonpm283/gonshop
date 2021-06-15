@@ -57,6 +57,7 @@ h6 {
 	margin: 0;
 	font-weight: 400;
 }
+
 .header-top {
 	background: var(--grey-dark) ;
 	color: var(--grey-light);
@@ -113,6 +114,64 @@ h6 {
 .header-top-link ul li a {
 	font-size: 13px;
 	color: var(--grey-1);
+}
+
+.menu-mb {
+	position: fixed;
+	right: 0;
+	top: 0;
+	background: var(--white-color);
+	z-index: 1000;
+	width: 300px;
+	height: 100vh;
+	transform: translateX(100%);
+	transition: all .3s ease-in-out;
+}
+
+.logo-mb {
+	padding: 10px 20px;
+	display: block;
+}
+
+.menu-mb.active {
+	transform: translateX(0);
+}
+
+.overlay {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.btn-close {
+	position: absolute;
+    right: 35px;
+    top: 10px;
+    font-size: 35px;
+}
+
+
+.menu-mb ul {
+	padding: 10px 20px;
+}
+
+.menu-mb ul li {
+	padding: 10px;
+}
+
+.menu-mb ul li a {
+	text-transform: uppercase;
+}
+
+.header-main {
+	position: relative;
+}
+
+.menu-btn {
+    position: absolute;
+    right: 39px;
+    top: 26px;
+    font-size: 30px;
 }
 
 .header-main-left {

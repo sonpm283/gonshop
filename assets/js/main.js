@@ -61,4 +61,17 @@ $( document ).ready(function() {
  		$(pane).fadeIn(300)
  	})
  	$("#tab-slide .tab-slide-item h3:first").click()
+
+    var menuBtn = $(".menu-btn") 
+    var menuMb  = $(".menu-mb")
+
+    menuBtn.click(function() {
+        menuMb.toggleClass("active");
+    })
+
+    $(".btn-close").click(function() {
+         menuMb.removeClass("active");
+    }) 
+
+    $(window).click
 });
