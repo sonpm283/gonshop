@@ -7,7 +7,16 @@ $( document ).ready(function() {
         nav: true,
         autoplay: true,
         navText: navText,
-        autoplayHoverPause: true
+        autoplayHoverPause: true,
+        responsive: {
+            0: {
+                items: 1,
+                nav: false
+            },
+            600: {
+
+            }
+        }
     })
 
      $("#feedback-slider").owlCarousel({
@@ -22,6 +31,17 @@ $( document ).ready(function() {
 
     $("#tab-slide").owlCarousel({
     	items: 3,
+        dots: false,
+        loop: true,
+        nav: true,
+        autoplay: false,
+        navText: navText,
+        autoplayHoverPause: true
+    })
+
+
+    $("#news-slider").owlCarousel({
+        items: 1,
         dots: false,
         loop: true,
         nav: true,
