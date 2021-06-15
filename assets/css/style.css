@@ -469,10 +469,6 @@ h6 {
 	position: relative;
 }
 
-.vertical-product-img img {
-	width: 100%;
-}
-
 .vertical-product-img span {
 	position: absolute;
 	text-transform: uppercase;
@@ -1001,7 +997,7 @@ footer p span {
 	.header-bottom-cate {
 		padding: 12px 13px;
 	}
-	
+
 	.header-bottom-cate i {
 		margin-right	: 0;
 	}
