@@ -1145,6 +1145,7 @@ footer p span {
 	.hero-slider-action {
 		display: none;
 	}
+
 	.hero-slider-content h1 {
 		font-size: 16px;
 	}
@@ -1152,6 +1153,12 @@ footer p span {
 	.header-top-link ul li ~ li {
 		padding-left: 15px;
 	    margin-left: 10px;
+	}
+
+	.tab-slide .owl-nav button.owl-next,
+	.tab-slide .owl-nav button.owl-prev
+	 {
+		top: 33px;
 	}
 
 }	
