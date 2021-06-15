@@ -594,6 +594,7 @@ h6 {
 	border: none;
 	outline: none;
 	position: absolute;
+	top: -30%;
 }
 
 .tab-slide .owl-nav button i {
@@ -611,12 +612,10 @@ h6 {
 }
 
 .tab-slide .owl-nav button.owl-prev {
-	top: -30%;
 	left: 0 ;
 }
 
 .tab-slide .owl-nav button.owl-next {
-	top: -30%;
 	right: 0;
 }
 
@@ -1020,6 +1019,9 @@ footer p span {
 	.lastestnews-item {
 		margin-bottom: 30px;
 	}
+	.form-newsletter input {
+		width: 50%;
+	}
 }
 
 @media only screen and (max-width: 991px) {
@@ -1071,6 +1073,31 @@ footer p span {
 		font-size: 13px;
 	}
 
+	.newsletter-txt {
+		display: none;
+	}
+	.newletter-content h2 {
+		margin-bottom: 20px;
+	}
+
+	.ads-bottom-content h3 {
+		font-size: 25px;
+	}
+
+	.video-icon i {
+	    font-size: 70px;
+	    border-radius: 50%;
+	}
+
+	.video-content h3 {
+		font-size: 25px;
+		margin: 25px 0 30px 0;
+	}
+
+	.video-content p {
+		font-size: 14px;
+	}
+
 }
 
 @media only screen and (max-width: 767px) {
@@ -1092,6 +1119,22 @@ footer p span {
 	.btn-main {
 		padding: 5px 10px;
 	}
+
+	.tab-slide .owl-nav button.owl-next,
+	.tab-slide .owl-nav button.owl-prev
+    {
+		top: 17px;
+	}
+	.tab-slide .owl-nav button.owl-next {
+		top: 17px;
+	}
+	.tab-slide h3 {
+		font-size: 12px;
+	}
+	.ads-bottom-img {
+		margin-bottom: 20px;
+	}
+
 }	
 
 @media only screen and (max-width: 480px) {
@@ -1105,4 +1148,10 @@ footer p span {
 	.hero-slider-content h1 {
 		font-size: 16px;
 	}
+
+	.header-top-link ul li ~ li {
+		padding-left: 15px;
+	    margin-left: 10px;
+	}
+
 }	
