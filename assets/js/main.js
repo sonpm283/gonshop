@@ -32,7 +32,7 @@ $( document ).ready(function() {
     $("#tab-slide").owlCarousel({
     	items: 3,
         dots: false,
-        loop: true,
+        loop: true ,
         nav: true,
         autoplay: false,
         navText: navText,
