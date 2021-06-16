@@ -29,6 +29,16 @@ $( document ).ready(function() {
         autoplayHoverPause: true
     })
 
+     $("#brand-slider").owlCarousel({
+        items: 1,
+        dots: false,
+        loop: true,
+        nav: true,
+        autoplay: true,
+        navText: navText,
+        autoplayHoverPause: true
+    })
+
     $("#tab-slide").owlCarousel({
     	items: 3,
         dots: false,
@@ -71,7 +81,5 @@ $( document ).ready(function() {
 
     $(".btn-close").click(function() {
          menuMb.removeClass("active");
-    }) 
-
-    $(window).click
+    })
 });
